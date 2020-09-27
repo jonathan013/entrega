@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contPanel{
+    position: absolute;
+    left: 0;
+    width: 30%;
+    background: black;
+    height: 100vh;
+}
+
+.imgFoto{
+    width: 40%;
+    height: 25%;
+    background: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50%;
+    border: 2px solid rgb(28, 146, 214);
+}
+
+.contPanel .Cont-nombre{
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+}
+
+/****************************************************/
+
+.Contenedor-opciones .opciones{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
+.Contenedor-opciones .opciones .link, .direcc{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.direcc{
+    text-decoration: none;
+    
+    width: 100%;
+}
+

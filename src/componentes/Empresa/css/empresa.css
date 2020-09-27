@@ -1,0 +1,13 @@
+.cont-CrearEmp{
+    background:rgb(245, 39, 39);;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 70%;
+}
+
+.botones{
+    position: absolute;
+    top: 20%;
+    margin: 20px;
+}

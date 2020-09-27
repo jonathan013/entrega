@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.presentacion{
+    background-color: yellowgreen;
+    float: left;
+    width: 60%;
+    height: 107vh;
+    background-image: url('../picture/fondo.jpg');
+    background-size: cover;
+}
+
+/************ login *************/
+.cont-login {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background: rgb(245, 39, 39);
+    width: 40%;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-login .login{
+ margin-top: 40%;
+}
+
+.cont-login .login label{
+    color: white;
+    font-size: 20px;
+}
+
+.cont-login .login .input-Form{
+    margin: 10px 0;
+    width: 40%;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+    padding: 5px;
+}
+
+.cont-login .login .btn-iniciar{
+    padding: 5px;
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid rgb(28, 146, 214);
+    background-color:  rgb(28, 146, 214);
+    color: white;
+}
+
+.cont-login .login .titulo{
+    color: white;
+}
+
+.presentacion .cont-log{
+    position: absolute;
+    bottom: 8%;
+    padding: 10px;
+}
+
+
+/************ fin login *************/
